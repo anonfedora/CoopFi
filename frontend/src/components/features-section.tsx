@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import BorrowCollateralIcon from "@/components/icons/BorrowCollateralIcon";
-import dollar from "../images/Dollar_icon.png";
-import eth from "../images/Ethereum_icon.png";
+// import dollar from "../images/Dollar_icon.png";
+// import eth from "../images/Ethereum_icon.png";
 
 export default function FeaturesSection() {
   return (
@@ -36,55 +36,36 @@ export default function FeaturesSection() {
           </div>
 
           {/* Borrow Against Collateral - Middle Section with grid layout */}
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h3 className="text-xl font-semibold text-white mb-4">
+          <div className="grid grid-cols-2 gap-x-[60px] items-stretch">
+            {/* <div className > */}
+            <div className="space-y-[60px]">
+              {/* <div className="py-9"> */}
+              <h3 className="text-2xl font-medium text-white pb-6 border-b-[2px] border-b-[#05124B] mb-6">
                 Borrow Against Collateral
               </h3>
-              <p className="text-gray-400 mb-6 leading-relaxed">
+              <p className="text-[#737DA7] font-normal mb-6 text-lg">
                 Unlock instant crypto loans on Starknet—borrow against your
                 collateral with zero gas fees and a seamless, wallet-free
                 experience.
               </p>
-              <button className="flex items-center gap-[10px] text-[#E2E2E2] border-b border-white pb-3 hover:text-blue-400 hover:border-blue-400 transition-colors">
+
+              {/* <button className="flex items-center gap-[10px] text-[#E2E2E2] border-b border-white pb-3 hover:text-blue-400 hover:border-blue-400 transition-colors"> */}
+              <button className="flex items-center gap-2 text-white border-b border-white pb-1 hover:text-blue-400 hover:border-blue-400 transition-colors">
                 Learn More <ArrowRight className="w-4 h-4" />
               </button>
             </div>
-            <div className="flex justify-center">
-              <div className="w-32 h-32 flex items-center justify-center bg-blue-400/10 rounded-xl">
-                <BorrowCollateralIcon width={80} height={80} />
-              </div>
+            <div className="flex gap-[31px] justify-center items-center bg-[#06052D] py-[55px] rounded-[8px]">
+              <img src="/borrow-gradient-logo.png" alt="borrow" />
             </div>
+            <div className="flex justify-center"></div>
           </div>
 
           {/* Exit or Repay - Bottom Section */}
-          <div className="flex items-start gap-8">
-            <div className="w-16 h-16 flex items-center justify-center bg-blue-400/10 rounded-xl">
-              <svg
-                width="40"
-                height="40"
-                viewBox="0 0 64 64"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="32"
-                  cy="32"
-                  r="24"
-                  stroke="#60A5FA"
-                  strokeWidth="3"
-                  fill="none"
-                />
-                <circle cx="20" cy="25" r="2" fill="#60A5FA" />
-                <circle cx="32" cy="22" r="2" fill="#60A5FA" />
-                <circle cx="44" cy="25" r="2" fill="#60A5FA" />
-                <path
-                  d="M18 35 Q32 42 46 35"
-                  stroke="#60A5FA"
-                  strokeWidth="2"
-                  fill="none"
-                />
-              </svg>
+          {/* <div className="flex items-start gap-8"> */}
+          <div className="grid grid-cols-2 gap-x-[60px] items-stretch">
+            {/* <div className="w-16 h-16 flex items-center justify-center bg-blue-400/10 rounded-xl"> */}
+            <div className="flex gap-[31px] justify-center items-center bg-[#06052D] py-[55px] rounded-[8px]">
+              <img src="/coins-gradient-logo.png" alt="coins-gradient" />
             </div>
             <div className="flex-1">
               <h3 className="text-xl font-semibold text-white mb-4">
