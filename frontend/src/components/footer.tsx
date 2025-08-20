@@ -1,16 +1,14 @@
 import { Twitter, Github } from "lucide-react";
-import CoopiFiLogo from "@/components/icons/CoopiFiLogo";
 
 export default function Footer() {
   return (
-    <footer className="px-6 lg:px-[150px] py-12 border-t border-blue-500">
-      <div className="max-w-7xl mx-auto">
+    <footer className="px-[150px] pb-[80px]">
+      <div className="max-w-7xl mx-auto bg-[#0C0035] px-6 lg:px-[150px] py-12 border-t border-blue-500">
         <div className="grid lg:grid-cols-2 gap-8 items-start">
           {/* Left side - Logo and description */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <CoopiFiLogo width={32} height={32} />
-              <span className="text-white text-xl font-semibold">CoopiFi</span>
+              <img src="/coopifi-logo.svg" alt="coopifi-logo" />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-md">
               CoopiFi redefines crypto lending and borrowing with a single
@@ -56,14 +54,14 @@ export default function Footer() {
               <a
                 href="#"
                 title="Follow us on Twitter"
-                className="w-8 h-8 rounded-full border border-gray-600 flex items-center justify-center hover:border-blue-400 hover:text-blue-400 transition-colors"
+                className="w-8 h-8 rounded-full border border-gray-600 flex items-center justify-center hover:border-blue-400 hover:text-blue-400 text-white transition-colors"
               >
                 <Twitter className="w-4 h-4" />
               </a>
               <a
                 href="#"
                 title="View our GitHub"
-                className="w-8 h-8 rounded-full border border-gray-600 flex items-center justify-center hover:border-blue-400 hover:text-blue-400 transition-colors"
+                className="w-8 h-8 rounded-full border border-gray-600 flex items-center text-white justify-center hover:border-blue-400 hover:text-blue-400 transition-colors"
               >
                 <Github className="w-4 h-4" />
               </a>
