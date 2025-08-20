@@ -3,7 +3,7 @@ import CoopiFiLogo from "@/components/icons/CoopiFiLogo";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between p-6 lg:px-12">
+    <header className="flex items-center justify-between py-6 px-6 lg:px-[150px]">
       <div className="flex items-center gap-3">
         <CoopiFiLogo width={32} height={32} />
         <span className="text-xl font-semibold text-white">CoopiFi</span>

@@ -3,7 +3,7 @@ import CoopiFiLogo from "@/components/icons/CoopiFiLogo";
 
 export default function Footer() {
   return (
-    <footer className="px-6 lg:px-12 py-12 border-t border-blue-500">
+    <footer className="px-6 lg:px-[150px] py-12 border-t border-blue-500">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-8 items-start">
           {/* Left side - Logo and description */}
