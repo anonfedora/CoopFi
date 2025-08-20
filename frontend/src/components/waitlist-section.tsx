@@ -18,7 +18,6 @@ export default function WaitlistSection() {
 
   return (
     <section id="waitlist" className="px-6 lg:px-[150px] py-20">
-      <div className="max-w-4xl mx-auto">
         <div className="relative border border-blue-500 rounded-lg p-8 lg:p-12 overflow-hidden">
           {/* Striped pattern background */}
           <div className="absolute inset-0 opacity-5">
@@ -86,7 +85,7 @@ export default function WaitlistSection() {
             </form>
           </div>
         </div>
-      </div>
+    
     </section>
   );
 }

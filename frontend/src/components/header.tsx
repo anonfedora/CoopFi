@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 // import CoopiFiLogo from "@/components/icons/CoopiFiLogo";
 
 export default function Header() {
@@ -30,12 +31,18 @@ export default function Header() {
           >
             Waitlist
           </a>
-          <Button
-            variant="outline"
-            className="border-white text-white hover:bg-white hover:text-[#070021] transition-colors bg-transparent"
+          <Link
+            href="/app"
+            className="relative px-6 py-3 rounded-full bg-[#070021] text-white hover:text-[#070021] transition-all duration-300 font-medium overflow-hidden group"
+            style={{
+              background:
+                "linear-gradient(#070021, #070021) padding-box, linear-gradient(to right, #88AAF1, #A0D2F3, #B8FAF6) border-box",
+              border: "2px solid transparent",
+            }}
           >
-            Open App
-          </Button>
+            <span className="relative z-10">Open App</span>
+            <div className="absolute inset-0 bg-gradient-to-r from-[#88AAF1] via-[#A0D2F3] to-[#B8FAF6] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full"></div>
+          </Link>
         </nav>
       </header>
 
