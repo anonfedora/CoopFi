@@ -1,5 +1,4 @@
 import { Twitter, Github } from "lucide-react";
-import CoopiFiLogo from "@/components/icons/CoopiFiLogo";
 
 export default function Footer() {
   return (
@@ -9,8 +8,7 @@ export default function Footer() {
           {/* Left side - Logo and description */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <CoopiFiLogo width={32} height={32} />
-              <span className="text-white text-xl font-semibold">CoopiFi</span>
+           <img src="/coopifi-logo.svg" alt="coopifi-logo" />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-md">
               CoopiFi redefines crypto lending and borrowing with a single

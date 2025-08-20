@@ -18,7 +18,7 @@ export default function HeroSection() {
             </p>
             <Button
               size="lg"
-              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#070021] transition-colors px-8 py-3"
+              className="bg-transparent border-2 border-white text-[#C9B3F5] hover:bg-white hover:text-[#070021] transition-colors px-8 py-3"
             >
               Open App
             </Button>
@@ -29,8 +29,8 @@ export default function HeroSection() {
               <Image
                 src="/stacked-coins.svg"
                 alt="Stacked coins illustration"
-                width={400}
-                height={400}
+                width={500}
+                height={500}
                 className="w-full h-auto max-w-md animate-float"
                 priority
               />
@@ -40,7 +40,7 @@ export default function HeroSection() {
       </div>
 
       {/* Bottom border line */}
-      <div className="max-w-7xl mx-auto mt-20">
+      <div className="max-w-7xl mx-auto mt-50">
         <div className="h-px bg-blue-500"></div>
       </div>
     </section>

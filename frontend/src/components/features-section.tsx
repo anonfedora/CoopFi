@@ -61,15 +61,16 @@ export default function FeaturesSection() {
           {/* Exit or Repay - Bottom Section */}
           {/* <div className="flex items-start gap-8"> */}
           <div className="grid grid-cols-2 gap-x-[60px] items-stretch">
-            {/* <div className="w-16 h-16 flex items-center justify-center bg-blue-400/10 rounded-xl"> */}
             <div className="flex gap-[31px] justify-center items-center bg-[#06052D] py-[55px] rounded-[8px]">
               <img src="/coins-gradient-logo.png" alt="coins-gradient" />
             </div>
             <div className="flex-1">
-              <h3 className="text-xl font-semibold text-white mb-4">
+              {/* <h3 className="text-xl font-semibold text-white mb-4"> */}
+              <h3 className="text-2xl font-medium text-white pb-6 border-b-[2px] border-b-[#05124B] mb-6">
                 Exit or Repay
               </h3>
-              <p className="text-gray-400 mb-6 leading-relaxed">
+              {/* <p className="text-gray-400 mb-6 leading-relaxed"> */}
+              <p className="text-[#737DA7] font-normal mb-6 text-lg">
                 Effortlessly manage your CoopiFi journey on Starknet—repay loans
                 or withdraw your assets with zero gas fees and a seamless,
                 one-click experience.
