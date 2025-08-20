@@ -1,11 +1,8 @@
 import { ArrowRight } from "lucide-react";
-import BorrowCollateralIcon from "@/components/icons/BorrowCollateralIcon";
-// import dollar from "../images/Dollar_icon.png";
-// import eth from "../images/Ethereum_icon.png";
 
 export default function FeaturesSection() {
   return (
-    <section id="features" className="px-6 lg:px-12 py-20">
+    <section id="features" className="px-6 lg:px-[150px] py-20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-white pb-3 border-b-[1px] border-[#B8FAF6] w-fit mx-auto">
@@ -24,6 +21,7 @@ export default function FeaturesSection() {
               <h3 className="text-2xl font-medium text-white pb-6 border-b-[2px] border-b-[#05124B] mb-6">
                 Supply liquidity and earn interest
               </h3>
+              ￼
               <p className="text-[#737DA7] font-normal mb-6 text-lg">
                 Power the future of DeFi on Starknet—supply liquidity, earn
                 attractive interest, and enjoy gasless, seamless transactions

@@ -17,7 +17,7 @@ export default function WaitlistSection() {
   };
 
   return (
-    <section id="waitlist" className="px-6 lg:px-12 py-20">
+    <section id="waitlist" className="px-6 lg:px-[150px] py-20">
       <div className="max-w-4xl mx-auto">
         <div className="relative border border-blue-500 rounded-lg p-8 lg:p-12 overflow-hidden">
           {/* Striped pattern background */}

@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="px-6 lg:px-12 py-20 lg:py-32">
+    <section className="px-6 lg:px-[150px] py-20 lg:py-32">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -23,15 +24,16 @@ export default function HeroSection() {
             </Button>
           </div>
 
-          <div className="relative">
-            <div className="flex flex-col items-center gap-4">
-              {/* Floating crypto tokens */}
-              <div className="relative w-full h-96">
-                <div className="absolute top-0 right-0 transform rotate-12 animate-float"></div>
-                <div className="absolute top-20 left-1/2 transform -translate-x-1/2 animate-float-delayed"></div>
-                <div className="absolute top-40 right-1/4 animate-float"></div>
-                <div className="absolute bottom-0 left-0 animate-float-delayed"></div>
-              </div>
+          <div className="relative flex justify-center items-center">
+            <div className="relative">
+              <Image
+                src="/stacked-coins.svg"
+                alt="Stacked coins illustration"
+                width={400}
+                height={400}
+                className="w-full h-auto max-w-md animate-float"
+                priority
+              />
             </div>
           </div>
         </div>
