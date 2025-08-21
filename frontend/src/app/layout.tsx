@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { DM_Sans } from "next/font/google"
+import { WalletProvider } from "@/contexts/WalletContext"
 import "./globals.css"
 
 const dmSans = DM_Sans({
@@ -22,7 +23,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${dmSans.variable} antialiased`}>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
+        <WalletProvider>
+          {children}
+        </WalletProvider>
+      </body>
     </html>
   )
 }
