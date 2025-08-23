@@ -22,7 +22,7 @@ export default function HeroSection() {
               Open App
             </Button> */}
             <a
-              href="/app/dashboard"
+              href="/dashboard"
               className="relative px-6 py-3 rounded-full bg-[#070021] text-white hover:text-[#070021] transition-all duration-300 font-medium overflow-hidden group"
               style={{
                 background:
